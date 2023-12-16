@@ -7,50 +7,22 @@
 .info-about-me {
   display: flex;
   flex-wrap: wrap;
-  font-size: 30px;
-  text-align: center;
+  padding: 40px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 2px solid v.$borderColor;
+  background-color: v.$background;
 }
 
 .article {
-  background-color: #f1f1f1;
-  padding: 10px;
+  padding: 20px;
   flex: 50%;
 }
 
 .my-photo {
-  background-color: dodgerblue;
-  padding: 10px;
+  padding: 20px 0px 20px 20px;
   flex: 50%;
-}
-
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .article,
-  .my-photo {
-    flex: 100%;
-  }
-}
-
-.contacts {
-  height: 70vh;
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  padding-top: 100px;
-  border: 2px solid v.$borderColor;
-  background-color: v.$background;
-
-  .contact-info {
-    padding: 50px;
-  }
-
-  .contact-img {
-    padding-top: 50px;
-    width: 80;
-  }
 }
 
 .my-photo img {
@@ -58,6 +30,31 @@
   aspect-ratio: 1/1;
   object-fit: cover;
   transform: scaleX(-1);
+  padding-top: 20px;
+}
+
+.contacts {
+  height: 70vh;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 2px solid v.$borderColor;
+  background-color: v.$background;
+  .contact-info {
+    padding: 50px;
+    flex: 50%;
+  }
+  .contact-img {
+    padding-top: 50px;
+    flex: 50%;
+    img {
+      width: 60%;
+    }
+  }
 }
 
 header {

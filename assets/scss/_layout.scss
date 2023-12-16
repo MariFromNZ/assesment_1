@@ -38,7 +38,6 @@ body {
     .row {
         grid-template-columns: none;
     }
-    // doesn't work
 }
 
 .row-tools {
@@ -53,3 +52,12 @@ body {
     grid-column: span 8;
 }
 
+@media (max-width: 800px) {
+    .article,
+    .my-photo,{
+      flex: 100%;
+    }
+    .row-skills {
+        border-bottom: none;
+    }
+  }
