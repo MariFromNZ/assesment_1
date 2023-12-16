@@ -65,16 +65,19 @@ body {
     .row .col-4 {
         padding-right:0px;
     }
-  }
-
-  @media (max-width:400px) {
     .contacts {
         padding-top: 20px;
-        .contacts-info{
-            padding-top: 20px;
-        } 
     }
 }
+
+  @media (max-width:500px) {
+    
+    #contact-info-padding-mobile {
+        padding: 20px;
+
+    }
+}
+
     
     
 
