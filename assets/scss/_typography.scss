@@ -13,7 +13,7 @@ h1 {
 h2, h4, p, a {
     font-family: v.$font-family;
 }
-h2 {
+h2, .add-info {
     text-transform: capitalize;
 }
 
@@ -29,6 +29,11 @@ h4 {
     line-height:1.5;
 }
 
+.article h4::after {
+    content: '😊';
+
+}
+
 .contacts p {
     font-size: 1.2em;
     line-height: 2;
@@ -38,3 +43,8 @@ p::first-letter {
     color: v.$secondColor;
     font-size: 1.5em;
   }
+
+.contact-info p::first-letter {
+    font-size: 1em;
+  }
+

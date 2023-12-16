@@ -66,3 +66,15 @@ body {
         padding-right:0px;
     }
   }
+
+  @media (max-width:400px) {
+    .contacts {
+        padding-top: 20px;
+        .contacts-info{
+            padding-top: 20px;
+        } 
+    }
+}
+    
+    
+
