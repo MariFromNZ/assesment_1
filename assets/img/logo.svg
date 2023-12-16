@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="174" height="114" viewBox="0 0 174 114">
+  <g id="Group_6" data-name="Group 6" transform="translate(-109 -634)">
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="32" cy="32" r="32" transform="translate(153 640)" fill="#fff3f3" opacity="0.35"/>
+    <g id="Group_5" data-name="Group 5" transform="translate(-527 16)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(679 619)" fill="#fff" stroke="#707070" stroke-width="0.5">
+        <circle cx="56.5" cy="56.5" r="56.5" stroke="none"/>
+        <circle cx="56.5" cy="56.5" r="56.25" fill="none"/>
+      </g>
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="35.5" cy="35" rx="35.5" ry="35" transform="translate(636 618)" fill="#fff"/>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="30.5" cy="28.5" rx="30.5" ry="28.5" transform="translate(749 670)" fill="#fff"/>
+      <g id="Group_2" data-name="Group 2" transform="translate(13 6)">
+        <g id="Group_3" data-name="Group 3">
+          <text id="Mariia" transform="translate(695 701)" fill="#707070" font-size="40" font-family="VladimirScript, Vladimir Script"><tspan x="0" y="0">Mariia</tspan></text>
+        </g>
+        <g id="Group_4" data-name="Group 4" transform="translate(-4)">
+          <text id="Fotina" transform="translate(649 663)" fill="#707070" font-size="40" font-family="VladimirScript, Vladimir Script"><tspan x="0" y="0">Fotina</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

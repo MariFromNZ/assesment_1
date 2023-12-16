@@ -1,0 +1,55 @@
+@use './variables' as v;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bgImg.png);
+
+}
+
+@media (max-width:800px) {
+    .hide-text {
+        display: none;
+    }
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: -40px;
+    border: 2px solid v.$borderColor;
+
+    .col-4,
+    .col-6,
+    .col-8 {
+        background-color: v.$background;
+        padding: 50px;
+    }
+}
+
+@media (max-width:700px) {
+    body {
+        background-image: none;
+    }
+    .row {
+        grid-template-columns: none;
+    }
+    // doesn't work
+}
+
+.row-tools {
+    margin-bottom: 20px;
+}
+
+.col-4 {
+    grid-column: span 4;
+}
+
+.col-8 {
+    grid-column: span 8;
+}
+
